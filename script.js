@@ -1060,7 +1060,7 @@ context2.closePath();
 // rad1 0 à -1.2
 // rad2 0 à 2.1
 // offset -5 à 5
-
+/*
 drawSanta();
 drawLegs();
 
@@ -1135,7 +1135,7 @@ canvas.addEventListener('click', function(){
 	var audio = document.getElementById('audio');
 	audio.play();
 })
-
+*/
 
 
 
