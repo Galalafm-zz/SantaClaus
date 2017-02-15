@@ -399,9 +399,9 @@ context.moveTo(505, 151);
 context.bezierCurveTo(497, 151, 497, 167, 505, 167);
 
 context.shadowColor    = '#DCE8F8';
-context.shadowBlur     = 3; 
-context.shadowOffsetX  = 5; 
-context.shadowOffsetY  = 0;   
+context.shadowBlur     = 3;
+context.shadowOffsetX  = 5;
+context.shadowOffsetY  = 0;
 
 context.fillStyle = '#302D30'
 context.fill();
@@ -422,11 +422,11 @@ context.lineTo(635, 80);
 context.lineTo(629, 105);
 context.quadraticCurveTo(595, 82, 520, 62);
 
-context.shadowBlur     = 0; 
-context.shadowOffsetX  = 0; 
-context.shadowOffsetY  = 0;  
+context.shadowBlur     = 0;
+context.shadowOffsetX  = 0;
+context.shadowOffsetY  = 0;
 
-context.fillStyle = '#E07160'; 
+context.fillStyle = '#E07160';
 context.fill();
 
 context.closePath();
@@ -461,7 +461,7 @@ context.arc(688,85,4,0,Math.PI * 2);
 context.arc(682,80,4,0,Math.PI * 2);
 context.arc(678,73,4,0,Math.PI * 2);
 
-context.fillStyle = 'white'; 
+context.fillStyle = 'white';
 context.fill();
 
 context.closePath();
@@ -478,7 +478,7 @@ context.quadraticCurveTo(503, 70, 503, 78);
 context.shadowColor    = '#D9E7F4';
 context.shadowBlur     = 10;
 context.shadowOffsetX  = 0;
-context.shadowOffsetY  = 6;  
+context.shadowOffsetY  = 6;
 
 context.fillStyle = 'white';
 context.globalCompositeOperation = 'source-over';
@@ -499,7 +499,7 @@ context.lineTo(503, 78);
 
 context.shadowBlur     = 0;
 context.shadowOffsetX  = 0;
-context.shadowOffsetY  = 0; 
+context.shadowOffsetY  = 0;
 
 context.fillStyle = '#FACFAF';
 context.fill();
@@ -748,7 +748,7 @@ context.closePath();
 
 context.beginPath();
 
-context.moveTo(610,275); 
+context.moveTo(610,275);
 context.lineTo(510,300); //elbow
 context.lineTo(400,275); //sleeve
 context.lineTo(415,230); //sleeve
@@ -761,9 +761,9 @@ context.lineJoin = 'round';
 context.fillStyle = '#E07160';
 
 context.shadowColor    = '#DB614C';
-context.shadowBlur     = 5;  
-context.shadowOffsetX  = 0;   
-context.shadowOffsetY  = 7;   
+context.shadowBlur     = 5;
+context.shadowOffsetX  = 0;
+context.shadowOffsetY  = 7;
 
 context.globalCompositeOperation = 'source-atop';
 context.fill();
@@ -786,8 +786,8 @@ context.lineJoin = 'round';
 context.fillStyle = '#E07160';
 
 context.shadowBlur     = 0;
-context.shadowOffsetX  = 0;   
-context.shadowOffsetY  = 0;   
+context.shadowOffsetX  = 0;
+context.shadowOffsetY  = 0;
 
 context.globalCompositeOperation = 'source-over';
 context.fill();
@@ -875,7 +875,7 @@ var xvar = 627.5,
 
 context2.save();
 context2.translate(xvar,yvar);
-context2.rotate(rad1); 
+context2.rotate(rad1);
 
 context2.beginPath();
 
@@ -928,9 +928,9 @@ context2.lineTo(525-xvar, 400-yvar);
 
 context2.globalCompositeOperation = 'source-over';
 context2.shadowColor    = '#DB614C';
-context2.shadowBlur     = 8;  
-context2.shadowOffsetX  = varOffSetX; //-5 normal 5 pas normal 
-context2.shadowOffsetY  = 4; 
+context2.shadowBlur     = 8;
+context2.shadowOffsetX  = varOffSetX; //-5 normal 5 pas normal
+context2.shadowOffsetY  = 4;
 
 context2.fillStyle = '#E07160';
 context2.fill();
@@ -946,9 +946,9 @@ context2.lineTo(550-xvar, 450-yvar);
 context2.lineTo(565-xvar, 445-yvar);
 context2.lineTo(555-xvar, 438-yvar);
 
-context2.shadowBlur     = 0;  
-context2.shadowOffsetX  = 0; 
-context2.shadowOffsetY  = 0; 
+context2.shadowBlur     = 0;
+context2.shadowOffsetX  = 0;
+context2.shadowOffsetY  = 0;
 
 context2.globalCompositeOperation = 'source-over';
 context2.fillStyle = '#D4CAD8';//'#E07160';
@@ -971,7 +971,7 @@ context2.bezierCurveTo(710-xvar, 460-yvar, 710-xvar, 460-yvar, 695-xvar, 423-yva
 context2.shadowColor    = '#DB614C';
 context2.shadowBlur     = 6;
 context2.shadowOffsetX  = -7;
-context2.shadowOffsetY  = 5;   
+context2.shadowOffsetY  = 5;
 
 context2.globalCompositeOperation = 'source-atop'
 context2.fillStyle = '#E07160';
@@ -988,7 +988,7 @@ context2.bezierCurveTo(710-xvar, 460-yvar, 710-xvar, 460-yvar, 695-xvar, 423-yva
 
 context2.shadowBlur     = 0;
 context2.shadowOffsetX  = 0;
-context2.shadowOffsetY  = 0;   
+context2.shadowOffsetY  = 0;
 
 context2.globalCompositeOperation = 'source-over';
 context2.fillStyle = '#E07160';
@@ -1060,7 +1060,8 @@ context2.closePath();
 // rad1 0 à -1.2
 // rad2 0 à 2.1
 // offset -5 à 5
-/*
+// /*
+
 drawSanta();
 drawLegs();
 
@@ -1073,7 +1074,7 @@ var rad1max = true,
 function move() {
 
 	window.requestAnimationFrame(move);
-	
+
 	counter++;
 
 	// if (counter >= 100) return;
@@ -1099,7 +1100,7 @@ function move() {
 	if (rad1 < 0 && !rad1max) rad1 = Math.round( (rad1 + 0.05) * 100 ) /100;
 
 	// console.log('counter = '+counter+ ':rad1 = '+rad1+ ' rad1max='+rad1max+ ' rad1min='+rad1min);
-	
+
 	if (rad2 < 2.1 && !rad2max)
 	{
 		rad2 = Math.round( (rad2 + 0.05) * 100 ) / 100; // increment
@@ -1135,9 +1136,3 @@ canvas.addEventListener('click', function(){
 	var audio = document.getElementById('audio');
 	audio.play();
 })
-*/
-
-
-
-
-
